@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="ui设计,html5,app,响应式,作品展示,个人作品展示,作品展示网站,uimake">
+    <meta name="description" content="作品展示,个人作品展示,作品展示网站,uimake,企业网站,电商网站,专题网站,微信推广页,webapp,混合app,ionic,ui设计,全栈工程师,作品,bootstrap">
+    <title>个人作品展示</title>
+    <!-- Bootstrap -->
+    <link href="bootstrap/dist/js/bootstrap.min.js">
+    <link href="bootstrap/dist/css/bootstrap.min.css">
+    <link rel="icon" type="image/png" href="ico.png">
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <link href="css/owl.carousel.css" rel="stylesheet"/>
+    <link href="css/owl.transitions.css" rel="stylesheet"/>
+    <link href="css/owl.theme.css" rel="stylesheet"/>
+    <link href="css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+    <link href="css/main.css" rel="stylesheet"/>
+
+
+    <!--[if lt IE 9]>
+    <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="index.html"><img src="imges/logo.png"></a>
+        </div>
+        <!-- 中英文切换 -->
+        <div class="language"><span>中</span>|<span>EN</span></div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="text-center"><a href="index.html">首页</a></li>
+                <li class="text-center active"><a href="portfolio.html">项目案例</a></li>
+                <li class="text-center"><a href="resume.html">个人简介</a></li>
+                <li class="text-center"><a href="contact.html">联系方式</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<!-- list -->
+<div class="container list">
+    <div class="row">
+        <div class="col-sm-12 text-center">
+            <h1>PROJECT</h1>
+        </div>
+    </div>
+    <div id="filters" class="row menu">
+        <div class="col-sm-12 text-center">
+            <button type="button" class="btn btn-default" data-filter="*">全部</button>
+            <button type="button" class="btn btn-info" data-filter=".app">APP</button>
+            <button type="button" class="btn btn-info" data-filter=".responsive">响应式</button>
+            <button type="button" class="btn btn-info" data-filter=".html5">html5</button>
+
+        </div>
+    </div>
+    <div class="row" style="margin-left: 0;margin-right: 0;">
+        <div id="container-sort" class="project" style="padding-left:0;">
+            <div class="item html5 responsive col-md-3 col-xs-6 thumb">
+                <a href="portfoilo/company.html">
+                    <div class="thumb-wrap">
+                        <div class="over-hid rel">
+                            <div class="mask"><i class="fa fa-link fa-3x"></i></div>
+                            <img class="img-responsive" src="imges/thumb/zbc-thumb.jpg"/>
+                        </div>
+                        <div class="describe text-center">筑邦臣</div>
+                    </div>
+                </a>
+            </div>
+            <div class="item app col-md-3 col-xs-6 thumb">
+                <a href="portfoilo/clothes.html">
+                    <div class="thumb-wrap">
+                        <div class="over-hid rel">
+                            <div class="mask"><i class="fa fa-link fa-3x"></i></div>
+                            <img class="img-responsive" src="imges/thumb/syj-thumb.jpg"/>
+                        </div>
+                        <div class="describe text-center">试衣间</div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="item responsive col-md-3 col-xs-6 thumb">
+                <a href="portfoilo/index.html">
+                    <div class="thumb-wrap">
+                        <div class="over-hid rel">
+                            <div class="mask"><i class="fa fa-link fa-3x"></i></div>
+                            <img class="img-responsive" src="imges/thumb/ym-thumb.jpg"/>
+                        </div>
+                        <div class="describe text-center">漾美</div>
+                    </div>
+                </a>
+            </div>
+            <div class="item all public hotel col-md-3 col-xs-6 thumb">
+                <a href="portfoilo/details.html">
+                    <div class="thumb-wrap">
+                        <div class="over-hid rel">
+                            <div class="mask"><i class="fa fa-link fa-3x"></i></div>
+                            <img class="img-responsive" src="imges/thumb/12.jpg"/>
+                        </div>
+                        <div class="describe text-center">大观国际</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div><!-- /.list -->
+<footer>
+    <div class="container">
+        <div class="row text-center">
+            <a href="##"><i class="fa fa-weibo fa-2x"></i></a>
+            <a href="##"><i class="fa fa-qq fa-2x"></i></a>
+            <div class="rel" style="display: inline-block;">
+                <a href="##">
+                    <i class="fa fa-weixin fa-2x"></i>
+                    <div class="tip">
+                        <img src="imges/QQ.jpg">
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-2 col-md-offset-2">电话：186-1300-2117</div>
+            <div class="col-lg-4 col-md-4">地址：上海市闵行区联航路</div>
+            <div class="col-lg-3 col-md-3">邮箱：sex991@163.com</div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <span>©2017 </span><a href="##"> BY: ZHOU-ZHEN -LIANG</a><span class="hidden-xs">沪ICP备140****1号</span>
+    </div>
+</footer><!-- /.footer -->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
